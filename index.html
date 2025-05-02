@@ -9,6 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -28,7 +31,7 @@
           <a href="#pricing">Pricing</a>
           <a href="#blog">Blog</a>
           <a href="#contact">Contact</a>
-          <button class="buy-now">BUY NOW</button>
+          <!-- <button class="buy-now">BUY NOW</button> -->
         </div>
       </div>
     </nav>
@@ -209,6 +212,67 @@
       </div> -->
 
       <div class="portfolio-grid">
+
+        <div class="portfolio-item">
+          <img
+            src="assets/images/chat_app_cover.png"
+            alt="A chat application interface with user profiles and message threads"
+            class="portfolio-image"
+          />
+          <div class="tech-stack">
+            <!-- <img src="https://placehold.co/20x20" alt="React" class="tech-icon">
+                    <img src="https://placehold.co/20x20" alt="Node.js" class="tech-icon">
+                    <img src="https://placehold.co/20x20" alt="MongoDB" class="tech-icon"> -->
+            <i class="fab fa-react tech-icon" title="React"></i>
+            <i class="fab fa-node-js tech-icon" title="Node.js"></i>
+            <i class="fas fa-database tech-icon" title="MongoDB"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Web Development</span>
+            <h3 class="portfolio-title">Chat App</h3>
+            <div class="portfolio-links">
+              <a href="https://github.com/mahbubshaun/chatapp" class="portfolio-link">
+                <i class="fas fa-code"></i>
+                View Code
+              </a>
+              <a href="https://chatapp-o1wz.vercel.app/" class="portfolio-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img
+            src="assets/images/pricescout.png"
+            alt="PriceScout - Search and Compare Drones"
+            class="portfolio-image"
+          />
+          <div class="tech-stack">
+            <!-- <img src="https://placehold.co/20x20" alt="React" class="tech-icon">
+                    <img src="https://placehold.co/20x20" alt="Node.js" class="tech-icon">
+                    <img src="https://placehold.co/20x20" alt="MongoDB" class="tech-icon"> -->
+            <i class="fab fa-react tech-icon" title="React"></i>
+            <i class="fab fa-node-js tech-icon" title="Node.js"></i>
+            <i class="fas fa-database tech-icon" title="MongoDB"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Web Development</span>
+            <h3 class="portfolio-title">PriceScout - Search and Compare Drones</h3>
+            <div class="portfolio-links">
+              <a href="https://github.com/mahbubshaun/comic_reader" class="portfolio-link">
+                <i class="fas fa-code"></i>
+                View Code
+              </a>
+              <a href="https://mahbubshaun.github.io/price_comparison_website/" class="portfolio-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="portfolio-item">
           <img
             src="assets/images/GEEKOUT-DASHBOARD.png"
@@ -227,11 +291,11 @@
             <span class="portfolio-category">Web Development</span>
             <h3 class="portfolio-title">Geekout - Comic Reader</h3>
             <div class="portfolio-links">
-              <a href="https://github.com/mahbubshaun/comic_reader" class="portfolio-link">
+              <a href="https://github.com/mahbubshaun/comic_reader" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-code"></i>
                 View Code
               </a>
-              <a href="#" class="portfolio-link">
+              <a href="https://mahbubshaun.github.io/comic_reader/" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
                 Live Demo
               </a>
@@ -241,8 +305,8 @@
 
         <div class="portfolio-item">
           <img
-            src="assets/images/MAIL-AUTOMATION.png"
-            alt="EMAIL AUTOMATION RPA Software"
+            src="assets/images/rfq.png"
+            alt="RFQ Tracker Web App"
             class="portfolio-image"
           />
           <div class="tech-stack">
@@ -258,14 +322,14 @@
             />
           </div>
           <div class="portfolio-overlay">
-            <span class="portfolio-category">RPA</span>
-            <h3 class="portfolio-title">EMAIL AUTOMATION RPA Software</h3>
+            <span class="portfolio-category">Web App</span>
+            <h3 class="portfolio-title">RFQ Tracker System</h3>
             <div class="portfolio-links">
-              <a href="https://github.com/mahbubshaun/email_automation?tab=readme-ov-file" class="portfolio-link">
+              <a href="https://github.com/mahbubshaun/the_odin_project_full_stack_learning/tree/main/webpack-demo" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-code"></i>
                 View Code
               </a>
-              <a href="https://www.youtube.com/watch?v=f5FzfP7sEDM" class="portfolio-link">
+              <a href="https://mahbubshaun.github.io/the_odin_project_full_stack_learning/webpack-demo/rft.html" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
                 Live Demo
               </a>
@@ -273,33 +337,34 @@
           </div>
         </div>
 
+
         <div class="portfolio-item">
           <img
-            src="https://placehold.co/400x300"
-            alt="Modern banking website design with gradient elements and financial charts"
+            src="assets/images/bulk_emailing_app.png"
+            alt="EMAIL AUTOMATION Desktop App"
             class="portfolio-image"
           />
           <div class="tech-stack">
             <img
               src="https://placehold.co/20x20"
-              alt="Vue.js"
+              alt="Flutter"
               class="tech-icon"
             />
             <img
               src="https://placehold.co/20x20"
-              alt="Tailwind"
+              alt="Firebase"
               class="tech-icon"
             />
           </div>
           <div class="portfolio-overlay">
-            <span class="portfolio-category">UI/UX Design</span>
-            <h3 class="portfolio-title">Banking Platform</h3>
+            <span class="portfolio-category">Desktop App</span>
+            <h3 class="portfolio-title">Bulk Email Automation App</h3>
             <div class="portfolio-links">
-              <a href="#" class="portfolio-link">
+              <a href="https://github.com/mahbubshaun/email_automation?tab=readme-ov-file" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-code"></i>
                 View Code
               </a>
-              <a href="#" class="portfolio-link">
+              <a href="https://youtu.be/D0qItr8IJKU" class="portfolio-link"  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
                 Live Demo
               </a>
@@ -307,107 +372,11 @@
           </div>
         </div>
 
-        <div class="portfolio-item">
-          <img
-            src="https://placehold.co/400x300"
-            alt="Real-time chat application interface with dark mode and emoji support"
-            class="portfolio-image"
-          />
-          <div class="tech-stack">
-            <img
-              src="https://placehold.co/20x20"
-              alt="Socket.io"
-              class="tech-icon"
-            />
-            <img
-              src="https://placehold.co/20x20"
-              alt="Express"
-              class="tech-icon"
-            />
-          </div>
-          <div class="portfolio-overlay">
-            <span class="portfolio-category">Web Development</span>
-            <h3 class="portfolio-title">Chat Application</h3>
-            <div class="portfolio-links">
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-code"></i>
-                View Code
-              </a>
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-external-link-alt"></i>
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio-item">
-          <img
-            src="https://placehold.co/400x300"
-            alt="Food delivery app interface showing restaurant listings and order tracking"
-            class="portfolio-image"
-          />
-          <div class="tech-stack">
-            <img
-              src="https://placehold.co/20x20"
-              alt="React Native"
-              class="tech-icon"
-            />
-            <img
-              src="https://placehold.co/20x20"
-              alt="GraphQL"
-              class="tech-icon"
-            />
-          </div>
-          <div class="portfolio-overlay">
-            <span class="portfolio-category">Mobile App</span>
-            <h3 class="portfolio-title">Food Delivery App</h3>
-            <div class="portfolio-links">
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-code"></i>
-                View Code
-              </a>
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-external-link-alt"></i>
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="portfolio-item">
-          <img
-            src="https://placehold.co/400x300"
-            alt="Smart home automation dashboard showing device controls and energy usage"
-            class="portfolio-image"
-          />
-          <div class="tech-stack">
-            <img
-              src="https://placehold.co/20x20"
-              alt="Angular"
-              class="tech-icon"
-            />
-            <img
-              src="https://placehold.co/20x20"
-              alt="TypeScript"
-              class="tech-icon"
-            />
-          </div>
-          <div class="portfolio-overlay">
-            <span class="portfolio-category">IoT Dashboard</span>
-            <h3 class="portfolio-title">Smart Home Control</h3>
-            <div class="portfolio-links">
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-code"></i>
-                View Code
-              </a>
-              <a href="#" class="portfolio-link">
-                <i class="fas fa-external-link-alt"></i>
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
+
+
+
       </div>
     </section>
     <section id="resume" class="resume-section">
@@ -600,10 +569,10 @@
           <div class="stat-number">4+</div>
           <div class="stat-label">Years Experience</div>
         </div>
-        <div class="stat-card">
+        <!-- <div class="stat-card">
           <div class="stat-number">100%</div>
           <div class="stat-label">Success Rate</div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- 
@@ -832,7 +801,7 @@
               Location
             </h3>
             <p class="info-content">
-              123 Tech Street, Silicon Valley<br />California, USA
+              Savar, Dhaka, Bangladesh
             </p>
           </div>
 
@@ -842,16 +811,16 @@
               Email Me
             </h3>
             <p class="info-content">
-              contact@jonelee.dev<br />support@jonelee.dev
+              mdmahbubshaun@gmail.com
             </p>
           </div>
 
           <div class="info-item">
             <h3 class="info-title">
               <i class="fas fa-phone-alt"></i>
-              Call Me
+              WhatsApp
             </h3>
-            <p class="info-content">+1 (234) 567-8900<br />+1 (234) 567-8901</p>
+            <p class="info-content">+88017828599354</p>
           </div>
 
           <div class="info-item">
@@ -860,17 +829,11 @@
               Social Media
             </h3>
             <div class="social-links">
-              <a href="#" class="social-link">
+              <a href="https://github.com/mahbubshaun" class="social-link">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="social-link">
+              <a href="https://www.linkedin.com/in/mdmahbubshaun/" class="social-link">
                 <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" class="social-link">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-link">
-                <i class="fab fa-instagram"></i>
               </a>
             </div>
           </div>
@@ -932,44 +895,102 @@
         </div>
     </footer>
 
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Email Sent Successfully!</h2>
+        <p>Thank you for reaching out. I will get back to you soon.</p>
+      </div>
+    </div>
+
     <script>
-      const toggleSwitch = document.querySelector(".toggle-switch");
-      const toggleTexts = document.querySelectorAll(".toggle-text");
-      const prices = document.querySelectorAll(".plan-price");
+      // const toggleSwitch = document.querySelector(".toggle-switch");
+      // const toggleTexts = document.querySelectorAll(".toggle-text");
+      // const prices = document.querySelectorAll(".plan-price");
 
-      const monthlyPrices = ["$199", "$399", "$899"];
-      const annualPrices = ["$1990", "$3990", "$8990"];
+      // const monthlyPrices = ["$199", "$399", "$899"];
+      // const annualPrices = ["$1990", "$3990", "$8990"];
 
-      toggleSwitch.addEventListener("click", () => {
-        toggleSwitch.classList.toggle("monthly");
-        toggleTexts.forEach((text) => text.classList.toggle("active"));
+      // toggleSwitch.addEventListener("click", () => {
+      //   toggleSwitch.classList.toggle("monthly");
+      //   toggleTexts.forEach((text) => text.classList.toggle("active"));
 
-        const isMonthly = toggleSwitch.classList.contains("monthly");
-        prices.forEach((price, index) => {
-          price.innerHTML = `${
-            isMonthly ? monthlyPrices[index] : annualPrices[index]
-          }<span>/${isMonthly ? "month" : "year"}</span>`;
-        });
-      });
-      const form = document.getElementById("contactForm");
+      //   const isMonthly = toggleSwitch.classList.contains("monthly");
+      //   prices.forEach((price, index) => {
+      //     price.innerHTML = `${
+      //       isMonthly ? monthlyPrices[index] : annualPrices[index]
+      //     }<span>/${isMonthly ? "month" : "year"}</span>`;
+      //   });
+      // });
+      // const form = document.getElementById("contactForm");
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        // Add your form submission logic here
+      // form.addEventListener("submit", (e) => {
+      //   e.preventDefault();
+      //   // Add your form submission logic here
 
-        // Example success message
-        const button = form.querySelector(".submit-btn");
-        button.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-        button.style.background = "var(--terminal-green)";
-        button.style.color = "var(--dark-bg)";
+      //   // Example success message
+      //   const button = form.querySelector(".submit-btn");
+      //   button.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+      //   button.style.background = "var(--terminal-green)";
+      //   button.style.color = "var(--dark-bg)";
 
-        setTimeout(() => {
-          button.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
-          button.style.background = "transparent";
-          button.style.color = "var(--terminal-green)";
+      //   setTimeout(() => {
+      //     button.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+      //     button.style.background = "transparent";
+      //     button.style.color = "var(--terminal-green)";
+      //     form.reset();
+      //   }, 3000);
+      // });
+
+      // <!-- Add the EmailJS SDK -->
+
+  // Initialize EmailJS with your Public Key
+  emailjs.init("vh75cQm8rlEtYUyuK");
+
+  const form = document.getElementById("contactForm");
+  const modal = document.getElementById("successModal");
+  const closeModalBtn = modal.querySelector(".close-btn");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    // Collect form data
+    const formData = {
+      name: form.querySelector('input[placeholder="John Doe"]').value,
+      email: form.querySelector('input[placeholder="john@example.com"]').value,
+      subject: form.querySelector('input[placeholder="Project Inquiry"]').value,
+      message: form.querySelector('textarea[placeholder="Write your message here..."]').value,
+    };
+
+    // Send email using EmailJS
+    emailjs
+      .send("service_dk0mq7j", "template_pa7008i", formData)
+      .then(
+        (response) => {
+          // Show the modal
+          modal.style.display = "block";
+
+          // Reset the form
           form.reset();
-        }, 3000);
-      });
+        },
+        (error) => {
+          alert("Failed to send email. Please try again later.");
+        }
+      );
+  });
+
+    // Close the modal when the close button is clicked
+    closeModalBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Close the modal when clicking outside of it
+  window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+
     </script>
   </body>
 </html>
